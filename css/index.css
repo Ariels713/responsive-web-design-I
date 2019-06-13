@@ -377,6 +377,15 @@ footer .copyright {
 
 /* media queries for Ipad */
 @media (max-width: 800px) {
+    /* wrapper style */
+    .container {
+        /* display: flex; */
+        width: 750px;
+        margin: 0 auto;
+        /* border: solid 10px goldenrod; */
+        /* flex-flow: row wrap; */
+    }
+
 
     /* Navigation Design */
     .navigation {
@@ -505,6 +514,14 @@ footer .copyright {
 }
 
 @media (max-width: 500px) {
+    /* wrapper style */
+    .container {
+        /* display: flex; */
+        width: 450px;
+        margin: 0 auto;
+        /* border: solid 10px goldenrod; */
+        /* flex-flow: row wrap; */
+    }
 
     /* Navigation Design */
     .navigation {
@@ -605,9 +622,9 @@ footer .copyright {
     /* Footer Syling */
     footer {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         flex-wrap: wrap;
-        width: 500px;
+        width: 100%;
         height: 200px;
         background-color: #729ea1;
         text-align: center;
@@ -616,7 +633,7 @@ footer .copyright {
     footer .copyright {
         color: white;
         margin-top: 20px;
-        margin-left: 60px;
+        /* margin-left: 60px; */
         font-size: 14px;
         font-weight: 400;
     }
